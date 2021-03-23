@@ -1,7 +1,9 @@
 package com.ait.wine.controller;
 
 import com.ait.wine.model.Supplier;
+import com.ait.wine.model.Wine;
 import com.ait.wine.repository.SupplierRepository;
+import org.hibernate.tool.hbm2ddl.ConnectionHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -13,11 +15,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+
+import javax.websocket.server.PathParam;
+import javax.xml.ws.Response;
 import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/api/v1")
 public class SupplierController {
 
     @Autowired
@@ -53,4 +57,6 @@ public class SupplierController {
         }
         return supplierRepository.findAll();
     }
+
+
 }

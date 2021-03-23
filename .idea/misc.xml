@@ -5,6 +5,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/client-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/shared/pom.xml" />
+        <option value="$PROJECT_DIR$/client-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/client-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/zuulgateway/pom.xml" />
       </list>
     </option>
   </component>

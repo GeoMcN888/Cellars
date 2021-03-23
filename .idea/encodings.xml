@@ -2,8 +2,20 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client-discovery/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client-discovery/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client-feign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client-ribbon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client-ribbon/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shared/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/supplier-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/supplier-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wine-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wine-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuulgateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuulgateway/src/main/resources" charset="UTF-8" />
   </component>
 </project>

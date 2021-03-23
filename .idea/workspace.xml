@@ -1,161 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2ab201d8-9e50-4c81-b846-fa70c37c771c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-discovery/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-discovery/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-discovery/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-discovery/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-discovery/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-discovery/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-discovery/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-discovery/src/main/java/com/ait/clientdiscovery/ClientDiscoveryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-discovery/src/main/java/com/ait/clientdiscovery/controllers/ClientDiscoveryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-discovery/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-discovery/src/test/java/com/ait/clientdiscovery/ClientDiscoveryApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-feign/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-feign/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-feign/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-feign/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-feign/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-feign/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/ClientFeignApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/controllers/ClientFeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClientZuul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineServiceClientZuul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/model/Wine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-feign/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-feign/src/test/java/edu/ait/clientfeign/ClientFeignApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-ribbon/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-ribbon/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-ribbon/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-ribbon/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-ribbon/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-ribbon/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-ribbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-ribbon/src/main/java/edu/ait/clientribbon/ClientRibbonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-ribbon/src/main/java/edu/ait/clientribbon/controllers/ClientRibbonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-ribbon/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-ribbon/src/test/java/edu/ait/clientribbon/ClientRibbonApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-service/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/main/java/com/ait/wine/model/Wine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/target/classes/com/ait/wine/model/Supplier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/target/classes/com/ait/wine/model/Wine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier-service/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier-service/target/classes/com/ait/wine/SupplierServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier-service/target/classes/com/ait/wine/controller/SupplierController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier-service/target/classes/com/ait/wine/repository/SupplierRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier-service/target/classes/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wine-service/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wine-service/target/classes/com/ait/wine/WineServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wine-service/target/classes/com/ait/wine/controller/WineController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wine-service/target/classes/com/ait/wine/repository/WineRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wine-service/target/classes/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuulgateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuulgateway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuulgateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuulgateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuulgateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuulgateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuulgateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuulgateway/src/main/java/edu/ait/zuulgateway/ZuulgatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuulgateway/src/main/java/edu/ait/zuulgateway/filters/LoggingPostFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuulgateway/src/main/java/edu/ait/zuulgateway/filters/LoggingPreFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuulgateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuulgateway/src/test/java/edu/ait/zuulgateway/ZuulgatewayApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service/target/classes/com/ait/wine/EurekaServiceApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/supplier-service/target/classes/com/ait/wine/SupplierController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/supplier-service/target/classes/com/ait/wine/SupplierServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/supplier-service/target/classes/com/ait/wine/SupplierServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supplier-service/target/classes/com/ait/wine/controller/SupplierController.class" beforeDir="false" afterPath="$PROJECT_DIR$/supplier-service/target/classes/com/ait/wine/controller/SupplierController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supplier-service/target/classes/com/ait/wine/model/Supplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/supplier-service/target/classes/com/ait/wine/model/Supplier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supplier-service/target/classes/com/ait/wine/repository/SupplierRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/supplier-service/target/classes/com/ait/wine/repository/SupplierRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/eureka-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supplier-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/supplier-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/controller/SupplierController.java" beforeDir="false" afterPath="$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/controller/SupplierController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/model/Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/ait/wine/model/Supplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supplier-service/supplier-service.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wine-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wine-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/WineServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/WineServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/controller/WineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/controller/WineController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/model/Wine.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-discovery/src/main/java/com/ait/clientdiscovery/model/Wine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wine-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wine-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wine-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wine-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wine-service/target/classes/com/ait/wine/WineServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/wine-service/target/classes/com/ait/wine/WineServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wine-service/target/classes/com/ait/wine/controller/WineController.class" beforeDir="false" afterPath="$PROJECT_DIR$/wine-service/target/classes/com/ait/wine/controller/WineController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wine-service/target/classes/com/ait/wine/model/Wine.class" beforeDir="false" afterPath="$PROJECT_DIR$/wine-service/target/classes/com/ait/wine/model/Wine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wine-service/target/classes/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/wine-service/target/classes/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wine-service/wine-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wine-service/wine-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wine-service/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/wine-service/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wine-service/wine-service.iml" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/wine-service/target/" />
-    <ignored path="$PROJECT_DIR$/supplier-service/target/" />
-    <ignored path="$PROJECT_DIR$/eureka-service/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1618845537">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="12" />
-          <entry key="properties" value="5" />
-          <entry key="sql" value="2" />
-          <entry key="xml" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="12" />
-          <entry key="Properties" value="5" />
-          <entry key="SQL" value="2" />
-          <entry key="XML" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1894" />
-          <entry key="properties" value="10" />
-          <entry key="sql" value="79" />
-          <entry key="xml" value="33" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1894" />
-          <entry key="Properties" value="10" />
-          <entry key="SQL" value="79" />
-          <entry key="XML" value="33" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/SupplierServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wine-service/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-service/src/main/java/com/ait/wine/EurekaServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/WineServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/controller/WineController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wine-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/supplier-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -183,13 +124,6 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -207,6 +141,7 @@
     <option name="width" value="1890" />
     <option name="height" value="930" />
   </component>
+  <component name="ProjectId" id="1q8iQo1lD0iUf6ZeqJ7IF1PdBxd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -281,19 +216,60 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.WineServiceApplication">
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/client-discovery/src/main/java/com/ait/clientdiscovery" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ait.clientfeign.model" />
+      <recent name="com.ait.clientdiscovery.models" />
+      <recent name="models" />
+      <recent name="com.ait.wine.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ZuulgatewayApplication">
+    <configuration name="ClientDiscoveryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ait.clientdiscovery.ClientDiscoveryApplication" />
+      <module name="client-discovery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ait.clientdiscovery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientFeignApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ait.clientfeign.ClientFeignApplication" />
+      <module name="client-feign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ait.clientfeign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ait.wine.EurekaServiceApplication" />
       <module name="eureka-service" />
@@ -307,9 +283,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupplierServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SupplierServiceApplication" type="Application" factoryName="Application" singleton="false">
       <option name="MAIN_CLASS_NAME" value="com.ait.wine.SupplierServiceApplication" />
       <module name="supplier-service" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8080" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ait.wine.*" />
@@ -320,12 +297,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WineServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ait.wine.WineServiceApplication" />
-      <module name="wine-service" />
+    <configuration name="SupplierServiceApplication(1)" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="com.ait.wine.SupplierServiceApplication" />
+      <module name="supplier-service" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8081" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ait.wine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WineServiceApplication" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ait.wine.WineServiceApplication" />
+      <module name="wine-service" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8083" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ait.wine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WineServiceApplication(1)" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="com.ait.wine.WineServiceApplication" />
+      <module name="wine-service" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8082" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ait.wine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulgatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ait.zuulgateway.ZuulgatewayApplication" />
+      <module name="zuulgateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ait.zuulgateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -334,18 +353,26 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.SupplierServiceApplication(1)" />
       <item itemvalue="Application.SupplierServiceApplication" />
+      <item itemvalue="Application.WineServiceApplication(1)" />
       <item itemvalue="Application.EurekaServiceApplication" />
       <item itemvalue="Application.WineServiceApplication" />
+      <item itemvalue="Application.ClientDiscoveryApplication" />
+      <item itemvalue="Application.ClientFeignApplication" />
+      <item itemvalue="Application.ZuulgatewayApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WineServiceApplication" />
-        <item itemvalue="Application.SupplierServiceApplication" />
+        <item itemvalue="Application.ZuulgatewayApplication" />
         <item itemvalue="Application.EurekaServiceApplication" />
+        <item itemvalue="Application.ClientFeignApplication" />
+        <item itemvalue="Application.WineServiceApplication" />
+        <item itemvalue="Application.ClientDiscoveryApplication" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2ab201d8-9e50-4c81-b846-fa70c37c771c" name="Default Changelist" comment="" />
@@ -385,8 +412,24 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Client Feign and Zuul" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Client Feign and Zuul" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.4.RELEASE/spring-data-commons-2.2.4.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">

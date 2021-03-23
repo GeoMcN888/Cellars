@@ -8,14 +8,25 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-service" />
         <module name="supplier-service" />
+        <module name="shared" />
+        <module name="client-ribbon" />
+        <module name="client-discovery" />
+        <module name="client-feign" />
         <module name="wine-service" />
+        <module name="zuulgateway" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="client-discovery" options="-parameters" />
+      <module name="client-feign" options="-parameters" />
+      <module name="client-ribbon" options="-parameters" />
+      <module name="eureka-service" options="-parameters" />
+      <module name="shared" options="-parameters" />
       <module name="supplier-service" options="-parameters" />
-      <module name="wine-service" options="" />
+      <module name="wine-service" options="-parameters" />
+      <module name="zuulgateway" options="-parameters" />
     </option>
   </component>
 </project>
